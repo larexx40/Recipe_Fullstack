@@ -4,7 +4,8 @@ A full-stack web application that allows users to manage a collection of recipes
 
 ## Installation
 
-Move to backend and frontend folder to install packages separately.  Execute install command in both backend and frontend diretory
+Install backend and frontend packages separately by navigating to their respective directories. Execute the install command in both the backend and frontend directories:
+
 
 ```bash
 $ yarn install
@@ -12,11 +13,11 @@ $ yarn install
 
 ## Configuration
 
-Before running the backend application, create a .env file in the backend directory. You can use the .env.example file as a reference for the required environment variables.
+Before running the backend application, create a .env file in the backend directory. You can use the .env.example file as a reference for the required environment variables
 
 ## Running the app
 
-Run frontend and backend separately. Execute the start command in backend directory and frontend directory
+Run the frontend and backend applications separately by executing the start command in the backend and frontend directories:
 
 ```bash
 # development
