@@ -2,6 +2,29 @@
 
 A full-stack web application that allows users to manage a collection of recipes. This app enables users to create, view, update, and delete recipes, each containing a title, ingredients, instructions, and an optional image.
 
+## Installation
+
+Move to backend and frontend folder to install packages separately.  Execute install command in both backend and frontend diretory
+
+```bash
+$ yarn install
+```
+
+## Configuration
+
+Before running the backend application, create a .env file in the backend directory. You can use the .env.example file as a reference for the required environment variables.
+
+## Running the app
+
+Run frontend and backend separately. Execute the start command in backend directory and frontend directory
+
+```bash
+# development
+$ yarn run start
+
+```
+
+
 ## Features
 
 ### Backend (Node.js/Express)
@@ -22,7 +45,7 @@ A full-stack web application that allows users to manage a collection of recipes
   - Uses express-validator to enforce required fields and validate incoming data.
 
 - **Error Handling**
-  - Handle error with appropriate HTTP status codes and error messages.
+  - Comprehensive error handling with appropriate HTTP status codes and error messages.
 
 ### Frontend (React)
 - **Recipe Management**
